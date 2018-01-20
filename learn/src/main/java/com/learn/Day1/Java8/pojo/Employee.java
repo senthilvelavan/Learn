@@ -1,6 +1,6 @@
 package com.learn.Day1.Java8.pojo;
 
-public class Employee {
+public class Employee implements Comparable<Employee>{
 	
 	int employeeId;
 	String name;
@@ -45,6 +45,11 @@ public class Employee {
 		this.age = age;
 		this.address = address;
 		this.salary = salary;
+	}
+	@Override
+	public int compareTo(Employee e) {
+		// TODO Auto-generated method stub
+		return this.getEmployeeId() - e.getEmployeeId();
 	}
 
 	

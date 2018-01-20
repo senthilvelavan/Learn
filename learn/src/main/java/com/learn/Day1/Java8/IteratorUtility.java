@@ -32,7 +32,7 @@ public class IteratorUtility {
 		long count = employeeList.stream().filter(employee -> employee.getAddress().getDoorNumber().equals("1")).count();
 		
 		long distinctCount = employeeList.stream().distinct().count();
-//		employeeList.stream().sorted().forEach(employee -> employee.getEmployeeId());
+		employeeList.stream().sorted().forEach(employee -> System.out.println(employee.getEmployeeId()));
 		List<Integer> collect = employeeList.stream().map(employee -> employee.getSalary()*100).collect(Collectors.toList());
 		
 		System.out.println("count of employees with address as door number as 1 -> "+count);
