@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;object&apos; from expression &apos;lists.get(i)&apos;&#x0A;- Original project: &apos;learn14&apos;&#x0A;- Variable name: &apos;object&apos;&#x0A;- Destination method: &apos;com.learn.Day2.Generics.NonGenerics.main()&apos;&#x0A;- Variable expression: &apos;lists.get(i)&apos;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;object&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java&lt;com.learn.Day2.Generics{NonGenerics.java" name="object" replace="true" selection="305 13" stamp="1516478570143" version="1.0"/>
+</session>

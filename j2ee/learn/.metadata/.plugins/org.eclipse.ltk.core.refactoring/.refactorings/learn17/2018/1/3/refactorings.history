@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;distinctAddressCount&apos; in &apos;com.learn.Day1.Iterator.IteratorUtility7.main(...)&apos; to &apos;uniqueAddressCount&apos;&#x0A;- Original project: &apos;learn17&apos;&#x0A;- Original element: &apos;com.learn.Day1.Iterator.IteratorUtility7.main(String[]).distinctAddressCount&apos;&#x0A;- Renamed element: &apos;distinctAddressCount&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;distinctAddressCount&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;com.learn.Day1.Iterator{IteratorUtility7.java[IteratorUtility7~main~\[QString;@distinctAddressCount!1127!1155!1131!1150!I!0!false" name="uniqueAddressCount" references="true" stamp="1516477806432" version="1.0"/>
+</session>

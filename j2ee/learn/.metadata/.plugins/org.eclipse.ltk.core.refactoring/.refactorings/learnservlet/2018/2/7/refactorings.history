@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;learnservlet.HelloWorld&apos; to &apos;SampleServlet&apos;&#x0A;- Original project: &apos;learnservlet&apos;&#x0A;- Original element: &apos;learnservlet.HelloWorld&apos;&#x0A;- Renamed element: &apos;learnservlet.SampleServlet&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HelloWorld&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;learnservlet{HelloWorld.java[HelloWorld" matchStrategy="1" name="SampleServlet" qualified="false" references="true" similarDeclarations="false" stamp="1518334986445" textual="false" version="1.0"/>
+</session>
