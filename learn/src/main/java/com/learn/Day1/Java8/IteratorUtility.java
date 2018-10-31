@@ -31,6 +31,11 @@ public class IteratorUtility {
 
 		long count = employeeList.stream().filter(employee -> employee.getAddress().getDoorNumber().equals("1")).count();
 		
+		System.out.println("print random stream");
+		employeeList.stream().forEach(employee -> System.out.println(employee.getEmployeeId()));
+		System.out.println("print parallel stream");
+		employeeList.parallelStream().forEach(employee -> System.out.println(employee.getEmployeeId()));
+		
 		long distinctCount = employeeList.stream().distinct().count();
 		System.out.println("print after sorting");
 		employeeList.stream().sorted().forEach(employee -> System.out.println(employee.getEmployeeId()));
